@@ -1,0 +1,158 @@
+a,p,h1,h2,h3,h4,h5,h6,span{font-family:"微软雅黑","Arial";}
+body{background:#f2f2f2;font-size:14px;}
+.header{background:url(2de797545de56274f03a5920eb3a1.jpg);
+	    background-repeat:no-repeat;
+	    background-position:center 0;
+	    -webkit-background-size:cover;
+	    background-size:cover;
+	    padding:138px 0 0;
+	    text-align:center;
+	    min-height:400px;
+	    position:relative;}
+.logoimg{position:absolute;
+	     left:1%;
+	     right:1%;
+	     bottom:-34px;}
+.container{padding-right:15px;
+		   padding-left:15px;
+		   margin-right:auto;
+		   margin-left:auto;}
+@media (min-width:768px){
+	.container {
+	    width:750px;
+	}
+}
+@media (min-width:992px){
+	.container {
+	    width:970px;
+	}
+}
+@media (min-width:1200px){
+	.container {
+	    width:1170px;
+	}
+}
+.logotxt{margin-bottom:30px;
+         border:0;}
+.logotxt a{font-weight:700;
+		   color:#fff;
+		   font-size:64px;}
+.site-name{color:#fff;
+		   padding:0;
+		   margin:0 0 45px;
+		   font-weight:100;
+		   font-size:34px;}
+.main{margin-top:90px;}
+.main .artile-box{position:relative;
+				  margin-bottom:30px;
+				  padding-bottom:40px;
+				  background-color:#fff;
+				  -webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+				  box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);}
+.post-title{position:absolute;
+		    font-size:24px;
+		    z-index:9;
+		    bottom:12px;
+		    left:0;
+		    right:0;
+		    text-align:center;
+		    margin:0;}
+.post-title	a{color:#777;}
+.post-title	a:hover{color:#222;}	
+.article-image{padding-top:62.5%;
+               position:relative;
+               overflow:hidden;}
+.image-a{margin-bottom:0;
+		 padding:12px;
+		 border-top-right-radius:0;
+		 border-top-left-radius:0;
+		 border-bottom-right-radius:0;
+		 border-bottom-left-radius:0;
+		 border:none;
+		 display:block;
+		 position:absolute;
+		 width:100%;
+		 top:0;
+		 left:0;
+		 line-height:1.42857143;
+         background-color:#fff;}
+.image-a img{opacity:1;
+	         border:0;
+	         transition:opacity 0.5s;}
+.artile-box img{display:block;
+			    max-width:100%;
+			    height:auto;
+			    margin-right: auto;
+                margin-left: auto;}
+.pages{display:block;
+	   position:relative;
+	   text-align:center;
+	   color:#666;
+	   font-size:13px;
+	   padding-left:0;
+	   margin:20px 0;
+	   border-radius:4px;}	
+.pages-number{color:#39414a;}
+.pages a{border:1px solid #39414a;
+	     position:absolute;
+	     top:-10px;
+	     right:10px;
+	     padding:10px;
+	     color:#39414a;
+	     white-space:nowrap;
+	     border-radius:3px;
+	     text-decoration:none;}	 
+.world-center{text-align:center;}
+.submit-site{background-color:#eee;
+		     padding-top:40px;
+		     padding-bottom:40px;
+		     margin-top:20px;}
+.footer{background:#202020;
+	    padding:35px 0 0;
+	    color:#959595;}
+.footer-box{padding:0 30px;
+            margin-bottom:35px;}
+.ft-box-title{color:#fff;
+              border-bottom:1px solid #303030;
+              margin-top:0;
+			  padding-bottom:7px;
+			  margin-bottom:21px;
+			  position:relative;}	
+.ft-box-title::after{content:"";
+				     width:90px;
+				     height:1px;
+				     background:#337ab7;
+				     position:absolute;
+				     left:0;
+				     bottom:-1px;}	
+.links-footer a{display: block;
+				border-bottom: 1px dashed #303030;
+				padding-bottom: 14px;
+				margin-bottom: 14px;
+				color: #959595;
+				transition: all .2s ease;}
+.links a:hover{color:#fff;
+               text-decoration:none;}
+.l-zhongwen{margin-bottom:0;}
+
+.copyright{background:#111;
+		   font-size:13px;
+		   text-align:center;
+		   color:#555;
+		   padding-top:14px;
+		   padding-bottom:20px;
+		   border-top:1px solid #303030;}
+.copyright a{color:#555;}	
+.copyright span{margin:0 0.5em;}
+.tag-cloud a{border:1px solid #303030;
+             padding:2px 7px;
+			 color:#959595;
+			 line-height:1.5em;
+			 display:inline-block;
+			 margin:0 7px 7px 0;
+			 -webkit-transition: all .2s ease;
+             transition: all .2s ease;}	
+.tag-cloud a:hover{border: 1px solid #337ab7;
+    color: #fff;
+    background: #337ab7;
+    text-decoration: none;}   				     		                                     
